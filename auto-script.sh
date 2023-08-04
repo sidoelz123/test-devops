@@ -1,3 +1,9 @@
+# Set time Jakarta
+sudo timedatectl set-timezone Asia/Jakarta
+
+# check time
+timedatectl 
+
 # update repository & upgrade package
 sudo apt update && sudo apt upgrade -y
 
